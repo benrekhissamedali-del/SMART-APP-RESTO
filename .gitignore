@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Capacitor - Android généré à la volée par le workflow
+android/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Keystore - NE JAMAIS COMMIT
+*.keystore
+*.jks
+key.properties
